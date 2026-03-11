@@ -59,11 +59,35 @@ const ServicePage = () => {
     visible: { opacity: 1, x: 0 }
   };
 
+  const canonicalUrl = `https://www.accessrecycle.com/services/${slug}`;
+
   return (
     <div className="bg-white min-h-screen pb-20 font-sans">
       <Helmet>
-          <title>{service.title} - Access Recycle Services</title>
-          <meta name="description" content={service.desc} />
+        <title>{service.title} | Access Recycle Services</title>
+        <meta name="description" content={service.desc} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:title" content={`${service.title} | Access Recycle`} />
+        <meta property="og:description" content={service.desc} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={service.img} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${service.title} | Access Recycle`} />
+        <meta name="twitter:description" content={service.desc} />
+        <meta name="twitter:image" content={service.img} />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": service.title,
+          "description": service.desc,
+          "url": canonicalUrl,
+          "provider": {
+            "@type": "Organization",
+            "name": "Access Recycle",
+            "url": "https://www.accessrecycle.com"
+          }
+        })}</script>
       </Helmet>
       
       {/* --- HERO SECTION --- */}

@@ -29,8 +29,33 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-slate-50 py-20 font-sans">
       <Helmet>
-        <title>Contact Us - Access Recycle</title>
-        <meta name="description" content="Get in touch with the Access Recycle team for inquiries, support, or partnership opportunities." />
+        <title>Contact Us | Access Recycle — UK & Spain Offices</title>
+        <meta name="description" content="Get in touch with Access Recycle for inventory purchases, reverse logistics inquiries, or partnership opportunities. Offices in the UK and Barcelona, Spain." />
+        <link rel="canonical" href="https://www.accessrecycle.com/contact" />
+        <meta property="og:title" content="Contact Us | Access Recycle — UK & Spain Offices" />
+        <meta property="og:description" content="Get in touch with Access Recycle for inventory purchases, reverse logistics inquiries, or partnership opportunities." />
+        <meta property="og:url" content="https://www.accessrecycle.com/contact" />
+        <meta property="og:image" content="https://www.accessrecycle.com/images/og-image.jpg" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Us | Access Recycle" />
+        <meta name="twitter:description" content="Get in touch with Access Recycle for inventory purchases, reverse logistics inquiries, or partnership opportunities." />
+        <meta name="twitter:image" content="https://www.accessrecycle.com/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Access Recycle",
+          "url": "https://www.accessrecycle.com",
+          "email": "info@accessrecycle.com",
+          "telephone": "+447474700700",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "151 High Street",
+            "addressLocality": "Loughton",
+            "postalCode": "IG10 4LG",
+            "addressCountry": "GB"
+          }
+        })}</script>
       </Helmet>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         

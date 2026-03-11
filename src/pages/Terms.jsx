@@ -12,8 +12,16 @@ const Terms = () => {
   return (
     <div className="bg-slate-50 min-h-screen font-sans">
       <Helmet>
-        <title>Terms & Conditions | Access Recycle</title>
-        <meta name="description" content="Terms and Conditions of sale for Access Recycle Ltd." />
+        <title>Terms & Conditions | Access Recycle Ltd</title>
+        <meta name="description" content="Standard terms and conditions of sale for Access Recycle Ltd. Registered in England No. 9563486. Governing law: England." />
+        <link rel="canonical" href="https://www.accessrecycle.com/terms" />
+        <meta property="og:title" content="Terms & Conditions | Access Recycle Ltd" />
+        <meta property="og:description" content="Standard terms and conditions of sale for Access Recycle Ltd." />
+        <meta property="og:url" content="https://www.accessrecycle.com/terms" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Terms & Conditions | Access Recycle Ltd" />
+        <meta name="twitter:description" content="Standard terms and conditions of sale for Access Recycle Ltd." />
       </Helmet>
 
       {/* --- HEADER --- */}

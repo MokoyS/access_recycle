@@ -41,8 +41,18 @@ const About = () => {
   return (
     <div className="bg-white overflow-hidden font-sans">
       <Helmet>
-          <title>About Us - Access Recycle Services</title>
-          <meta name="description" content="Learn about Access Recycle's mission, vision, and commitment to zero waste and sustainability." />
+        <title>About Us | Access Recycle — Zero Waste Mission & Vision</title>
+        <meta name="description" content="Learn how Access Recycle is leading the zero waste revolution in mobile recycling and reverse logistics, partnering with businesses and governments worldwide." />
+        <link rel="canonical" href="https://www.accessrecycle.com/about-us" />
+        <meta property="og:title" content="About Us | Access Recycle — Zero Waste Mission & Vision" />
+        <meta property="og:description" content="Learn how Access Recycle is leading the zero waste revolution in mobile recycling and reverse logistics, partnering with businesses and governments worldwide." />
+        <meta property="og:url" content="https://www.accessrecycle.com/about-us" />
+        <meta property="og:image" content="https://www.accessrecycle.com/images/og-image.jpg" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Us | Access Recycle — Zero Waste Mission & Vision" />
+        <meta name="twitter:description" content="Learn how Access Recycle is leading the zero waste revolution in mobile recycling and reverse logistics." />
+        <meta name="twitter:image" content="https://www.accessrecycle.com/images/og-image.jpg" />
       </Helmet>
 
       {/* --- SECTION 1: HERO & MISSION --- */}

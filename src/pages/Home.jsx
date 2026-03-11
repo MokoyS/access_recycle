@@ -11,8 +11,45 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Home - Access Recycle Services</title>
-        <meta name="description" content="Discover Access Recycle's commitment to extending the mobile lifecycle through innovative recycling and reverse logistics solutions." />
+        <title>Access Recycle | Mobile Lifecycle & Reverse Logistics Experts</title>
+        <meta name="description" content="Access Recycle purchases, processes, and redistributes mobile devices to maximize value and minimize waste. Trusted by Amazon, Fnac, Orange and more." />
+        <link rel="canonical" href="https://www.accessrecycle.com/" />
+        <meta property="og:title" content="Access Recycle | Mobile Lifecycle & Reverse Logistics Experts" />
+        <meta property="og:description" content="Access Recycle purchases, processes, and redistributes mobile devices to maximize value and minimize waste. Trusted by Amazon, Fnac, Orange and more." />
+        <meta property="og:url" content="https://www.accessrecycle.com/" />
+        <meta property="og:image" content="https://www.accessrecycle.com/images/og-image.jpg" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Access Recycle | Mobile Lifecycle & Reverse Logistics Experts" />
+        <meta name="twitter:description" content="Access Recycle purchases, processes, and redistributes mobile devices to maximize value and minimize waste." />
+        <meta name="twitter:image" content="https://www.accessrecycle.com/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Access Recycle",
+          "url": "https://www.accessrecycle.com",
+          "logo": "https://www.accessrecycle.com/images/logo.png",
+          "description": "Access Recycle specializes in purchasing, processing, and redistributing mobile devices to maximize value and minimize waste.",
+          "email": "info@accessrecycle.com",
+          "telephone": "+447474700700",
+          "address": [
+            {
+              "@type": "PostalAddress",
+              "streetAddress": "151 High Street",
+              "addressLocality": "Loughton",
+              "postalCode": "IG10 4LG",
+              "addressCountry": "GB"
+            },
+            {
+              "@type": "PostalAddress",
+              "streetAddress": "Calle Diputacion 301",
+              "addressLocality": "Barcelona",
+              "postalCode": "08009",
+              "addressCountry": "ES"
+            }
+          ],
+          "sameAs": []
+        })}</script>
       </Helmet>
 
         <section className="relative bg-slate-900 py-32 overflow-hidden">

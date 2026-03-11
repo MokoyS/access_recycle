@@ -12,8 +12,16 @@ const Privacy = () => {
   return (
     <div className="bg-slate-50 min-h-screen font-sans">
       <Helmet>
-        <title>Privacy Policy | Access Recycle</title>
-        <meta name="description" content="Privacy Policy and Data Protection information for Access Recycle Ltd." />
+        <title>Privacy Policy | Access Recycle Ltd — GDPR Compliant</title>
+        <meta name="description" content="Privacy Policy and GDPR data protection information for Access Recycle Ltd. Learn how we collect, use, and protect your personal data." />
+        <link rel="canonical" href="https://www.accessrecycle.com/privacy" />
+        <meta property="og:title" content="Privacy Policy | Access Recycle Ltd" />
+        <meta property="og:description" content="Privacy Policy and GDPR data protection information for Access Recycle Ltd." />
+        <meta property="og:url" content="https://www.accessrecycle.com/privacy" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Privacy Policy | Access Recycle Ltd" />
+        <meta name="twitter:description" content="Privacy Policy and GDPR data protection information for Access Recycle Ltd." />
       </Helmet>
 
       {/* --- HEADER --- */}
